@@ -2,10 +2,10 @@
     display: flex;
     align-items: center;
     position: absolute;
-    right: 50px;
-    bottom: 0px;
-    margin-bottom: 50px;
+    right: 20px;
+    bottom: 15px;   
 }
+
 .header-image{
-    height: 150px;
+    height: 110px;
 }
