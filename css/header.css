@@ -1,7 +1,10 @@
 .header{
     display: flex;
     align-items: center;
-    margin-left: 1700px;
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
+    margin-bottom: 50px;
 }
 .header-image{
     height: 150px;
