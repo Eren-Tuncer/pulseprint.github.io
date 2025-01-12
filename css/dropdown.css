@@ -1,5 +1,52 @@
-
-.dropdown{ position: absolute;
-    top: 50px;
+.dropdown {
+    position: absolute;
+    top: 30px;
     left: 30px;
+}
+
+.dropdown ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown > ul > li > a {
+    text-decoration: none;
+    font-family: Montserrat, Arial, sans-serif;
+    color: white;
+    transition: color 1s ease;
+}
+
+.dropdown > ul > li > a:hover {
+    color: red;
+}
+
+.dropdown > ul > li > a:visited {
+    color: white;
+}
+
+.dropdown ul ul {
+    display: none; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.dropdown ul ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat, Arial;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+    display: block; 
+}
+
+.dropdown ul ul li a:hover {
+    color: red;
+}
+
+
+.dropdown > ul > li:hover > ul {
+    display: block; 
 }
