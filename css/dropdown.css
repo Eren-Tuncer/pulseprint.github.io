@@ -5,9 +5,13 @@
 }
 
 .dropdown ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.dropdown ul li{
+    margin-right: 50px;
 }
 
 .dropdown > ul > li > a {
